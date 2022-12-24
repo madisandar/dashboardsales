@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard Sales</title>
+        <!-- favicon -->
+        <link href="./assets/img/favicon/icon.png" rel="icon" type="image/png" />
+        <!-- fontawesome css1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- bootstrap css1 js1 -->
+        <link href="./assets/libs/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- jquery ui css1 js1 -->
+        <link href="./assets/libs/jquery-ui-1.13.2/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+        <!-- lightbox css1 js1 -->
+        <link href="./assets/libs/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" type="text/css" />
+        <!-- custom css -->
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <!-- Start Nav Bar -->
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button type="button" class="navbar-toggler bg-light ms-auto" data-bs-toggle="collapse" data-bs-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div id="mynav" class="navbar-collapse collapse">
+            <div class="container-fluid">
+                <div class="row">
+                
+                         <!-- Start Left Side Bar -->
+                    <div class="col-xl-2 col-lg-3 col-md-4 fixed-top sidebars">
+                        <h3 class="h3 text-info text-center my-3 borderbottoms">Shop Sales</h3>
+                        <div class="d-flex borderbottoms" >
+                         <img src="./assets/img/background/dashboard.png" width="50px" alt="dashboard" class="rounded-circle mx-3"  />
+                         <a href="javascript:void(0);" class="navbar-brand text-light text-uppercase">Shop Here</a>
+                         
+                        </div>
+                         <ul class="navbar-nav flex-column mt-4">
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light  currents"><i class="fas fa-home fa-lg me-2"></i>Dashboard</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light sidebarlinks"><i class="fas fa-user fa-lg me-2"></i>Profile</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light sidebarlinks"><i class="fas fa-shopping-cart fa-lg me-2"></i>Sales</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light sidebarlinks"><i class="fas fa-chart-bar fa-lg me-2"></i>Charts</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2  text-light sidebarlinks"><i class="fa-solid fa-shop fa-lg me-2"></i>Facilities</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light sidebarlinks"><i class="fas fa-star fa-lg me-2"></i>Ratings</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link mb-2 text-light sidebarlinks"><i class="fa-regular fa-id-badge fa-lg me-2"></i>Contact Us</a></li>
+                         </ul>
+                        
+                        
+                     </div>
+                     <!-- End Left Side Bar -->
+                   </div>
+ 
+                     <!-- Start Top Side Bar -->
+                     <div class="col-xl-10 col-lg-9 col-md-8  ms-auto topnavbars">
+                         <div class="row align-items-center">
+                            <h3 class="text-center text-info mb-3">Make Appointment to our consultant</h3>
+                            <div class="col-md-4 mb-5">
+                                <div class="imgcontainer">
+                                   <img src="./assets/img/background/background.jpg" alt="background" class="img" />
+                                </div>
+                             </div>
+                             <div class="col-md-4 mb-5">
+                                 <div class="content">
+                                    <h3>Ms.July</h3>
+                                    <p>Head Customer Service Officer</p>
+
+                                    <ul>
+                                        <li><span class="bigcup godown">Summary Bio</span>
+                                            <ul class="nested active">
+                                                <li>Age:30</li>
+                                                <li>Marrid Status:single</li>
+                                                <li>Education:MBA of international INIT college</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <ul>
+                                        <li><span class="bigcup">Working Experience</span>
+                                            <ul class="nested">
+                                                <li><span class="bigcup">2022</span>
+                                                    <ul class="nested">
+                                                        <li>2021 - Sales Exercutive AT CITY MARTS,SUPERMARKET</li>
+                                                        <li>2022 - customer service header OF ALIBABA.COM NEW OCEAN</li>
+                                                    </ul>
+                                                </li>
+                                                <li><span class="bigcup">2018 </span>
+                                                    <ul class="nested">
+                                                        <li>2018 - consultant of BROOKLYN,CYBER COPERATION,NY</li>
+                                                        <li>2019 - receptionist AT ONLINE CUSTOMER SERVICE,ONLINE</li>
+                                                        <li>2020 - expport new brand FROM LOCAL AND ABROAD</li>
+                                                    </ul>
+                                               </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                 </div>
+                             </div>
+                             <div class="col-md-4 lasttopnavs">
+                                 <h3 class="mb-5 titles">Please order and shop here,warmly welcome</h3>
+                                 <div id="datepicker"></div>
+                             </div>
+                          </div>
+                     </div>
+                     <!-- End Top Side Bar -->
+
+                </div>
+              
+            </div>
+           
+        </nav>
+
+        <!-- End Nav Bar -->
+
+        <!-- Start Carousel Section --> 
+        <section id="profile" class="profiles">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 col-md-8 ms-auto">
+                        <div class="row">
+                            <div class="col">
+                                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li class="active" data-bs-target="#carousel" data-bs-slide-to="0"></li>
+                                        <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+                                    </ol>
+
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item banners1 active">
+                                            <div class="carouselcontents">
+                                                <h4 class="display-3 mb-3">Let's shopping with us</h4>
+                                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+
+                                            <div class="d-flex btns">
+                                                <button type="button" class="btn btn-primary btn-lg">Shop Here Now !</button>
+                                            </div>
+                                        </div>
+                                    
+
+                                        <div class="carousel-item banners2">
+                                            <div class="carouselcontents">
+                                                <h4 class="display-3 mb-3">Relieable products and brand we use</h4>
+                                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+    
+                                            <div class="d-flex btns">
+                                                <button type="button" class="btn btn-primary btn-lg">Shop Here Now !</button>
+                                            </div>
+                                        </div>
+                                
+
+                                        <div class="carousel-item banners3">
+                                            <div class="carouselcontents">
+                                                <h4 class="display-3 mb-3">Check out our profile</h4>
+                                                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+        
+                                            <div class="d-flex btns">
+                                                <button type="button" class="btn btn-primary btn-lg">Shop Here Now !</button>
+                                            </div>
+                                        </div>
+
+                                        <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </button>
+                          
+                                   </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--  End Caarousel Section -->
+
+         <!-- Start Sales Section -->
+         <div class="container-fluid">
+            <div class="row">
+                 <div class="col-xl-10 col-lg-9 col-md-8 ms-auto text-center">
+
+                      <h3 class="mb-5 borderstyles">Sale Items Group</h3>
+
+                      <div class="d-flex text-uppercase fw-bold">   
+                        <ul class="list-inline mx-auto">
+                              <li class="list-inline-item saleitems activeitems" data-filter="all">All <span class="mx-2 mx-md-5">/</span></li>
+                              <li class="list-inline-item saleitems" data-filter="shirt">Tshirts <span class="mx-2 mx-md-5">/</span></li>
+                              <li class="list-inline-item saleitems" data-filter="trouser">Jean Trousers <span class="mx-2 mx-md-5">/</span></li>
+                              <li class="list-inline-item saleitems" data-filter="dress">Dress <span class="mx-2 mx-md-5">/</span></li>
+                              <li class="list-inline-item saleitems" data-filter="skirt">Skirts</li>
+                        </ul>
+                      </div>
+
+                      <div class="container-fluid my-5">
+                          <div class="d-flex justify-content-center flex-wrap">
+                               <div class="filters shirt"><a href="./assets/img/sales/image1.jpg" data-lightbox="property" data-title="img1"><img src="./assets/img/sales/image1.jpg" width="200px" alt="img1"/></a></div>
+                               <div class="filters skirt"><a href="./assets/img/sales/image1.jpg" data-lightbox="property" data-title="img15"><img src="./assets/img/sales/image15.jpg" width="200px" alt="img15"/></a></div>
+                               <div class="filters shirt"><a href="./assets/img/sales/image3.png" data-lightbox="property" data-title="img3"><img src="./assets/img/sales/image3.png" width="200px" alt="img3"/></a></div>
+                               <div class="filters skirt"><a href="./assets/img/sales/image13.jpg" data-lightbox="property" data-title="img13"><img src="./assets/img/sales/image13.jpg" width="200px" alt="img13"/></a></div>
+                               <div class="filters dress"><a href="./assets/img/sales/image11.jpg" data-lightbox="property" data-title="img11"><img src="./assets/img/sales/image11.jpg" width="200px" alt="img11"/></a></div>
+                               <div class="filters trouser"><a href="./assets/img/sales/image5.jpg" data-lightbox="property" data-title="img5"><img src="./assets/img/sales/image5.jpg" width="200px" alt="img5"/></a></div>
+                               <div class="filters dress"><a href="./assets/img/sales/image8.jpg" data-lightbox="property" data-title="img8"><img src="./assets/img/sales/image8.jpg" width="200px" alt="img8"/></a></div>
+                               <div class="filters skirt"><a href="./assets/img/sales/image14.jpg" data-lightbox="property" data-title="img14"><img src="./assets/img/sales/image14.jpg" width="200px" alt="img14"/></a></div>
+                               <div class="filters trouser"><a href="./assets/img/sales/image7.jpg" data-lightbox="property" data-title="img7"><img src="./assets/img/sales/image7.jpg" width="200px" alt="img7"/></a></div>
+                               <div class="filters dress"><a href="./assets/img/sales/image12.jpg" data-lightbox="property" data-title="img12"><img src="./assets/img/sales/image12.jpg" width="200px" alt="img12"/></a></div>
+                               <div class="filters dress"><a href="./assets/img/sales/image10.jpg" data-lightbox="property" data-title="img10"><img src="./assets/img/sales/image10.jpg" width="200px" alt="img10"/></a></div>
+                               <div class="filters shirt"><a href="./assets/img/sales/image2.jpg" data-lightbox="property" data-title="img2"><img src="./assets/img/sales/image2.jpg" width="200px" alt="img2"/></a></div>
+                               <div class="filters dress"><a href="./assets/img/sales/image9.jpg" data-lightbox="property" data-title="img9"><img src="./assets/img/sales/image9.jpg" width="200px" alt="img9"/></a></div>
+                               <div class="filters trouser"><a href="./assets/img/sales/image6.jpg" data-lightbox="property" data-title="img6"><img src="./assets/img/sales/image6.jpg" width="200px" alt="img6"/></a></div>
+                               <div class="filters shirt"><a href="./assets/img/sales/image4.jpg" data-lightbox="property" data-title="img4"><img src="./assets/img/sales/image4.jpg" width="200px" alt="img4"/></a></div>
+                               <div class="filters skirt"><a href="./assets/img/sales/image16.jpg" data-lightbox="property" data-title="img16"><img src="./assets/img/sales/image16.jpg" width="200px" alt="img16"/></a></div>
+                               
+                          </div>
+                      </div>
+                 </div>
+            </div>
+         </div>
+         <!-- End Sales Section -->
+
+         <!-- Start Sale Chart Section -->
+         <div class="container chart-container">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ms-auto">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="text-info mb-3">Sales Report</h2>
+                            <p class="lead mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <div id="chart_div" style="width: 100%; height:500px;" ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- End Sale Chart Section -->
+
+         <!-- Start Faqs Section -->
+         <div class="container-fluid py-5">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ms-auto">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h4 class="mb-3">Upload Your first Product Here !!!</h4>
+                              <form action="" method="" enctype="multipart-form-data">
+                                  <div class="form-group mb-2">
+                                    <input type="file" name="coverphoto" id="coverphoto" class="form-control" />
+                                  </div>
+
+                                  <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-info btn-lg rounded-0">Upload</button>
+                                  </div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- End Faqs Section -->
+        
+
+        <!-- bootstap css1 js1 -->
+        <script src="./assets/libs/bootstrap-5.0.2-dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- jquery js1 -->
+        <script src="./assets/libs/jquery-3.6.1.min.js" type="text/javascript"></script>
+         <!-- jquery ui css1 js1-->
+         <script src="./assets/libs/jquery-ui-1.13.2/jquery-ui.min.js" type="text/javascript"></script>
+         <!-- google chart api js1 -->
+         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+         <!-- lightbox css1 js1 -->
+         <script src="./assets/libs/lightbox2-2.11.3/dist/js/lightbox.min.js" type="text/javascript"></script>
+        <!-- custom js -->
+        <script src="./js/app.js" type="text/javascript"></script>
+       
+
+    </body>
+</html>

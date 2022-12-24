@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #eee;
+
+    overflow-x: hidden;
+
+}
+
+a{
+    text-decoration:  none;
+}
+/*START NAVBAR*/
+
+/*Start Left Sidebar*/
+.sidebars{
+   height:  100vh;
+
+   background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url('../assets/img/background/cover.jpg');
+   background-repeat:  no-repeat;
+   background-position:  center;
+   background-size:  cover;
+
+   box-shadow:  5px 0 25px #999;
+ }
+ .borderbottoms{
+   border-bottom:  1px groove #eee;
+   padding: 10px;
+ }
+
+ .currents{
+   background-color: #e82107;
+   border-radius: 7px;
+   box-shadow: 2px 5px 10px #111;
+
+   transition: all 0.3s;
+ }
+
+ .currents:hover{
+   background-color: #db422e;
+   box-shadow: 2px 5px 20px #111;
+   transform: translateY(-1px);
+}
+
+.sidebarlinks{
+   transition: all 0.4s;
+}
+
+.sidebarlinks:hover{
+   background-color: #444;
+   border-radius: 7px;
+}
+
+
+/*End Left Sidebar*/
+/* Start Top Sidebar */
+
+
+@media(max-width:760px){
+ .sidebars{
+   height: auto;
+   position: static;
+ }
+
+ .topnavbars{
+   position: static;
+   
+ }
+
+ .lasttopnavs{
+   margin: 150px 0;
+ }
+
+
+}
+
+.content{
+   width: 1000%;
+   height: 90px;
+}
+
+ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.bigcup{
+   cursor: pointer;
+}
+
+.bigcup::before{
+   content: '\25B6';
+   font-family: 'FONT AWESOME 5 FREE';
+   margin-right: 6px;
+   display: inline-block;
+}
+
+
+.bigcup.godown::before{
+   transform: rotate(90deg);
+}
+
+.nested{
+   display: none;
+}
+
+.active{
+   display: block;
+}
+
+.titles{
+   font-size: 18px;
+   color: steelblue;
+}
+/* End Top Sidebar */
+/*END NAVBAR*/
+
+/* Start Profile Section */
+.profiles{
+   width: 100%;
+   margin: 100px 0;
+}
+.carousel-item{
+   width: 100%;
+   height: 100vh;
+
+   color: #fff;
+}
+
+.banners1,.banners2,.banners3{
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banners1{
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),
+                    url('../assets/img/banner/banner1.jpg');
+}
+
+.banners2{
+   background-image: url('../assets/img/banner/banner2.jpg');
+}
+
+.banners3{
+   background-image: url('../assets/img/banner/banner3.jpg');
+}
+
+.carouselcontents{
+   width: 80%;
+
+   position: absolute;
+   left: 50%;
+   top: 50%;
+
+   transform: translate(-50%,-50%);
+}
+
+.btns{
+   position: absolute;
+   left: 50%;
+   bottom: 20%;
+
+   transform: translateX(-50%);
+
+}
+/* End Profile Section */
+
+/* Start Sales Section */
+.borderstyles{
+     font-size: 25px;
+     font-weight: bold;
+     padding: 10px 5px;
+
+     display: inline-block;
+
+     position: relative;
+}
+
+.borderstyles::before,.borderstyles::after{
+   content: '';
+   width: 20px;
+   height: 20px;
+   /* background-color: green; */
+
+   position: absolute;
+   
+}
+
+.borderstyles::before{
+   border-top: 2px solid #999;
+   border-left: 2px solid #999;
+
+   left: -20px;
+   top: 0;
+}
+
+.borderstyles::after{
+   border-right: 2px solid #999;
+   border-bottom: 2px solid #999;
+
+   right: -20px;
+   bottom: 0;
+}
+
+.saleitems{
+   color: #979797;
+   cursor: pointer;
+}
+
+.activeitems{
+   color: #111;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+
+
+/* End Sales Section */
+
+/* Start Faqs Section */
+#coverphoto{
+   width: 200px;
+   height: 200px;
+   background-image: url('../assets/img/background/camera.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50%;
+   cursor: pointer;
+   margin: auto;
+}
+/* End Faqs Section */
